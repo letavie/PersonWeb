@@ -310,28 +310,33 @@ form textarea {
 .contact-button {
     width: 160px;
     cursor: pointer;
-    background: #2768d9;
+    background: #3420d1;
     color: #fff;
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-left: 35%;
+    margin-left: 37%;
 }
 .contact-button:hover {
     background: var(--hover);
 }
 .footer {
-    display: grid;
-    place-items: center;
+   
     padding: 20px;
     color: #000;
 }
 .footer h2 {
+    display: flex;
+    align-items: center;
+   justify-content: center;
     font-size: 1.5rem;
-    margin-bottom: 1.6rem;
+    margin-bottom: 3rem;
+   
     color: var(--text-color)
 }
 .footer-social a i {
+  
+   
     color: rgb(10, 26, 208);
     font-size: 25px;
     margin-left: 10px;
@@ -341,6 +346,11 @@ form textarea {
     border-radius: 50%;
     width: 40px;
     height: 40px;
+}
+.footer-social{
+    display: flex;
+    align-items: center;
+   justify-content: center;
 }
 .copyright {
     padding: 20px;
